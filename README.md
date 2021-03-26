@@ -1,1 +1,3 @@
-# calcImc
+# Calculadora IMC
+
+![](imgs/calc.png)
