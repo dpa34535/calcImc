@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="container">
+        <header>
+            <article>
+                <p class="msg"><span>1</span> - esta calculadora deverá ser usada somente para ter uma ideia geral de sua saúde.</p>
+                <p class="msg"><span>2</span> - desconsidere se o peso estiver ligado a hipertrofia.</p>
+                <p class="msg"><span>3</span> - esta calculadora não serve para calcular o imc de crianças ou bebês. Visto que há muitas variáveis em jogo. Para saber se está tudo certo, procure um médico.</p>
+            </article>
+            <h1>Tabela IMC</h1>
+            <article id="imc">
+                <p class="p-strong">IMC</p>
+                <p>Menos do que 18,5</p>
+                <p>Entre 18,5 e 24,9</p>
+                <p>Entre 25 e 29,9</p>
+                <p>Entre 30 e 34,9</p>
+                <p>Entre 35 e 39,9</p>
+                <p>Mais do que 40</p>
+            </article>
+            <article id="resultado">
+                <p class="p-strong">Resultado</p>
+                <p>Abaixo do peso</p>
+                <p>Peso normal</p>
+                <p>Sobrenome</p>
+                <p>Obesidade grau I</p>
+                <p>Obesidade grau II</p>
+                <p>Obesidade grau III</p>
+            </article>
+        </header>
+        <main>
+            <h2>Calcule seu IMC</h2>
+            <form id="form">
+                <label for="peso">Peso: </label>
+                <input type="text" id="peso" autofocus>
+                <label for="altura">Altura: </label>
+                <input type="text" id="altura" placeholder="Ex: 1.70 ou 1,70">
+                <input type="submit" value="Verificar">
+            </form>
+        </main>
+        <footer>
+            <article class="resultado-box">
+
+            </article>
+        </footer>
+
+    </section>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
